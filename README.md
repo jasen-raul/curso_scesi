@@ -9,3 +9,23 @@ hay un repositorio centralizado al que los desarrolladores se conectan para cola
 cada desarrollador tiene su propido repositorio completo y puede trabajarlo de forma independinte.
 ## Que es un repositorio?
 un repositorio es una carpeta en le que se almacenan las diferentes versiones de los ficheros de un proyecto y el historico de los cambios que se han realizado en ellos.
+# comandos
+muestra la version de git instalada
+```
+git --version 
+```
+muestra los comados basicos de uso
+```
+git --help
+```
+configuracion de usuario y correo
+```
+git config --global user.name <usuario>
+```
+```
+git config --global user.email <tu_correo>
+```
+muestra la configuracion global que tienes
+```
+git config --global --list
+```
