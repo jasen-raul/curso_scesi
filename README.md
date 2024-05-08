@@ -81,6 +81,9 @@ git checkout -b nombre_rama
 ```
 git checkout nombre_rama
 ```
+```
+git switch nombre_rama
+```
 #### Muestra en que rama estamos y lista las demas
 ```
 git branch
