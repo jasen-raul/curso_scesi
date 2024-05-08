@@ -69,6 +69,10 @@ git reset
 ```
 git log --oneline
 ```
+#### Muestra los commits de forma grafica
+```
+git log --graph --oneline
+```
 #### Crea una nueva rama
 ```
 git branch <nombre_rama>
@@ -96,6 +100,10 @@ git branch -m <rama>
 ```
 git merge <rama>
 ```
+#### Permite juntar dos ramas, pero las mantiene. Genera un commit del merge en la rama actual
+```
+git merge --no-ff <rama>
+```
 #### Eliminar una rama (solo si ya combinaste la rama)
 ```
 git branch -d nombre_rama
@@ -103,4 +111,8 @@ git branch -d nombre_rama
 #### Forzar la eliminacion de una rama 
 ```
 git branch -D nombre_rama  
+```
+#### Listar todas las ramas incluyendo las del repositorio remoto
+```
+git branch -a
 ```
