@@ -96,4 +96,8 @@ git branch -m <rama>
 ```
 git merge <rama>
 ```
+#### Eliminar una rama (solo si ya combinaste la rama)
+```
+git branch -d nombre_rama
+```
 
