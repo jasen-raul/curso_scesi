@@ -100,4 +100,7 @@ git merge <rama>
 ```
 git branch -d nombre_rama
 ```
-
+#### Forzar la eliminacion de una rama 
+```
+git branch -D nombre_rama  
+```
