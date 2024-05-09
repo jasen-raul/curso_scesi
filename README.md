@@ -137,3 +137,7 @@ git remote -v
 ```
 git push origin <rama>
 ```
+#### Sube los cambios del repositorio local al remoto y especifica la rama principal
+```
+git push -u origin <rama>
+```
