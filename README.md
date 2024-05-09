@@ -145,6 +145,10 @@ git push -u origin <rama>
 ```
 git push origin --delete <rama>
 ```
+#### Subir todos los cambios de las ramas locales al repositorio remoto
+```
+git push --all
+```
 #### Subir todos los tags locales al remoto
 ```
 git push --tags
@@ -156,4 +160,8 @@ git clone <url>
 #### Clonar un repositorio remoto en una rama especifica
 ```
 git clone --branch <rama> <url>
+```
+#### Descarga los cambios del repositorio remoto y actualiza el local en la rama por defecto
+```
+git pull
 ```
