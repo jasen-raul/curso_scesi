@@ -181,3 +181,11 @@ git pull
 ```
 git pull origin main
 ```
+#### traer todos los cambios a sus respectivas ramas
+```
+git pull --all
+```
+#### Actualiza la rama local con los cambios de la rama main del repositorio remoto origin y configura la rama local para hacer seguimiento a esta rama remota.
+```
+git pull --set-upstream origin <rama>
+```
