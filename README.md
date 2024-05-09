@@ -153,3 +153,7 @@ git push --tags
 ```
 git clone <url>
 ```
+#### Clonar un repositorio remoto en una rama especifica
+```
+git clone --branch <rama> <url>
+```
