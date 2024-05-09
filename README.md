@@ -141,3 +141,15 @@ git push origin <rama>
 ```
 git push -u origin <rama>
 ```
+#### Eliminar una rama remota
+```
+git push origin --delete <rama>
+```
+#### Subir todos los tags locales al remoto
+```
+git push --tags
+```
+#### Clonar un repositorio remoto
+```
+git clone <url>
+```
