@@ -133,6 +133,14 @@ git remote set-url origin <url>
 ```
 git remote -v 
 ```
+#### Actualiza la informacion entre el ropositorio remoto y el local
+```
+git fetch
+``` 
+#### Sincroniza las referencias locales con el estado actual del repositorio remoto,solo afecta a tu repositorio local
+```
+git remote prune origin
+```
 #### Sube los cambios del repositorio local al remoto de una rama específica
 ```
 git push origin <rama>
