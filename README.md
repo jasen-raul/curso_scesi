@@ -77,11 +77,11 @@ git log --graph --oneline
 ```
 git branch <nombre_rama>
 ```
-### Crear una nueva rama y cambia a ella en una sola operación
+#### Crear una nueva rama y cambia a ella en una sola operación
 ```
 git checkout -b nombre_rama
 ```
-### Cambiar a otra rama
+#### Cambiar a otra rama
 ```
 git checkout nombre_rama
 ```
@@ -104,6 +104,10 @@ git merge <rama>
 ```
 git merge --no-ff <rama>
 ```
+#### Cancelar una fusión en curso y volver al estado anterior al inicio de la fusión.
+```
+git merge --abort
+```
 #### Eliminar una rama (solo si ya combinaste la rama)
 ```
 git branch -d nombre_rama
@@ -115,4 +119,21 @@ git branch -D nombre_rama
 #### Listar todas las ramas incluyendo las del repositorio remoto
 ```
 git branch -a
+```
+## Comandos para Repositorio remoto
+#### Vincular repositorio remoto con repositorio local
+```
+git remote add origin <url>
+```
+#### Cambiar url del repositorio remoto
+```
+git remote set-url origin <url>
+```
+#### Muestra en que repositorio estamos enlazados remotamente
+```
+git remote -v 
+```
+#### Sube los cambios del repositorio local al remoto de una rama específica
+```
+git push origin <rama>
 ```
