@@ -145,7 +145,11 @@ git remote prune origin
 ```
 git push origin <rama>
 ```
-#### Sube los cambios del repositorio local al remoto y especifica la rama principal
+#### subir los cambios de una rama local a otra rama en el remoto
+```
+git push origin <rama_local>:<rama-remota>
+```
+#### Sube los cambios del repositorio local al remoto y especifica la rama principal, asocia la rama local a la rama remota 
 ```
 git push -u origin <rama>
 ```
@@ -172,4 +176,8 @@ git clone --branch <rama> <url>
 #### Descarga los cambios del repositorio remoto y actualiza el local en la rama por defecto
 ```
 git pull
+```
+#### trae los cambios de la rama main remota a la rama actual
+```
+git pull origin main
 ```
